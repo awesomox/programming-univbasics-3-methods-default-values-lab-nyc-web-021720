@@ -6,8 +6,5 @@ def meal_choice(veg1, veg2, protein="meat")
   visitor_order = "#{protein}, #{veg1}, #{veg2}"
 end
 
-meal_choice("broccoli", "macaroni")
-meal_choice("broccoli", "macaroni", "tofu")
-
 
   
