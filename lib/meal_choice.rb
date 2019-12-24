@@ -3,7 +3,8 @@
 def meal_choice(veg1, veg2, protein="meat")
   introduction = "What a nutritious meal!"
   visitor_meal = "A plate of #{protein} with #{veg1} and #{veg2}."
-  puts introduction + visitor_meal
+  puts introduction
+  puts visitor_meal
 end
 
 meal_choice("broccoli", "macaroni")
