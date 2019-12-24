@@ -2,8 +2,9 @@
 # For output purposes, use "puts" instead of "print" or "p"
 def meal_choice(veg1, veg2, protein="meat")
   introduction = "What a nutritious meal!"
-  visitor_order = "/nA plate of #{protein} with #{veg1} and #{veg2}."
-  puts (introduction + visitor_order)
+  visitor_order = "A plate of #{protein} with #{veg1} and #{veg2}."
+  puts introduction
+  puts visitor_order
 end
 
 meal_choice("broccoli", "macaroni")
